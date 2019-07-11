@@ -26,6 +26,7 @@ document.onkeypress = function (event) {
         wins++;
         document.querySelector('#numWins').innerHTML = wins;
         playGame()
+        
         // If both choose difference
         // guesses decrease 1
     } else {
