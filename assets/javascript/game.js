@@ -22,7 +22,6 @@ document.onkeypress = function (event) {
 
     //If user and computer choose the same letter
     //win adds 1
-    //start new play game 
     if (event.key === computerGuess) {
         wins++;
         document.querySelector('#numWins').innerHTML = wins;
